@@ -4,7 +4,7 @@ import time
 from playwright.sync_api import sync_playwright
 
 # Параметры поездки (Сочи — Орша, 14.10.2026)
-TARGET_URL = "https://rw.by"
+TARGET_URL = "https://pass.rw.by/ru/route/?from=Сочи&from_exp=2064130&from_esr=0&to=Орша&to_exp=2100170&to_esr=166403&date=2026-10-14&type=1"
 
 def check_tickets():
     with sync_playwright() as p:
